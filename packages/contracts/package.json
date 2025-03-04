@@ -1,0 +1,17 @@
+{
+  "name": "healthguardian-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.16",
+    "viem": "^2.21.53",
+    "wagmi": "^2.13.2"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "healthguardian",
+  "version": "1.0.0",
+  "description": "A Web3-based vaccination record system using Soulbound Tokens (SBTs) to create secure, verifiable digital vaccination certificates. Features automated level progression, dynamic discounts, and dual interfaces for healthcare providers and vaccine recipients.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint"
+  },
+  "keywords": [
+    "blockchain",
+    "web3",
+    "healthcare",
+    "vaccination",
+    "soulbound-tokens",
+    "ethereum",
+    "smart-contracts",
+    "nft",
+    "chainlink",
+    "metamask"
+  ],
+  "author": {
+    "name": "HealthGuardian",
+    "url": "https://healthguardian.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourUsername/HealthGuardian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YourUsername/HealthGuardian/issues"
+  },
+  "homepage": "https://healthguardian.org",
+  "license": "GPL-3.0",
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "eslint": "^9.16.0",
+    "jest": "^29.7.0",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
